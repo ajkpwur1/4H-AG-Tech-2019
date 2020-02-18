@@ -1083,6 +1083,8 @@
             name="Farmer" abstractType="#1b471445-db69-4e22-ada2-a72166616390"/>
         <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="fd03be82-dd4c-4f51-917c-2611542eb7b5"
             name="Reciver" abstractType="#b8256c83-a38f-4e61-b385-d7da147804f7"/>
+        <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
+            id="a4f10381-6893-4b0c-8359-8880d864dcf5" name="PL 1" linkEnds="#f62e60ae-3963-4f2e-8b93-6c494bc0ef38 #723da9ec-de48-438e-aff9-89f38ee2ac92"/>
       </ownedPhysicalContext>
       <ownedPhysicalComponent xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
           id="c0986625-9ca8-4150-b7bd-4e208f85ef02" name="Physical System">
@@ -1180,6 +1182,8 @@
               id="c7c237c1-a00f-4fa4-90fa-f9f6ee3a6cfb" name="Delayed" nature="NODE">
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
                 id="4a43b23c-9a38-4daf-bc8a-fa8c6a356259" name="PP 1"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                id="723da9ec-de48-438e-aff9-89f38ee2ac92" name="PP 2"/>
           </ownedPhysicalComponents>
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
               id="885a7905-a549-43ec-8285-26491ae5b10e" name="Injury" nature="NODE">
@@ -1334,6 +1338,8 @@
           <ownedFunctionalAllocation xsi:type="org.polarsys.capella.core.data.fa:ComponentFunctionalAllocation"
               id="16cba493-7cd5-4668-9e9b-06e92d9d5890" targetElement="#85d7ecdb-3de9-43e7-8a80-59dc529f0ff5"
               sourceElement="#1b471445-db69-4e22-ada2-a72166616390"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+              id="f62e60ae-3963-4f2e-8b93-6c494bc0ef38" name="PP 1"/>
           <ownedLogicalActorRealizations xsi:type="org.polarsys.capella.core.data.pa:LogicalActorRealization"
               id="6c87c5dc-f199-48ef-a179-e22f182cd694" targetElement="#c7083540-d3f3-4933-b531-861803508bf9"
               sourceElement="#1b471445-db69-4e22-ada2-a72166616390"/>
