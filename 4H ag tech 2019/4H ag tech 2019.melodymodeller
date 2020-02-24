@@ -1310,33 +1310,36 @@
         <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="499666d9-7518-49b6-9e18-c44aed9973f0"
             name="Battery pack" abstractType="#f7a29927-68c5-4642-96e1-607f72943206"/>
         <ownedPhysicalPath xsi:type="org.polarsys.capella.core.data.cs:PhysicalPath"
-            id="dce94791-9ab1-4136-8e06-b7c033db5765" name="Lo Ra Signal Path">
+            id="4d49fc37-5508-40b2-9812-fc54d8733dfe" name="PhysicalPath 1">
           <ownedComponentExchangeAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentExchangeAllocation"
-              id="a9eb3ca2-6c3d-4aa7-b062-2bfe01993d8e" targetElement="#ce2d2656-6512-45e8-a5e7-cb2a3888189e"
-              sourceElement="#dce94791-9ab1-4136-8e06-b7c033db5765"/>
+              id="2747acb7-3d69-424d-b7c5-4fb69fc8a015" targetElement="#ce2d2656-6512-45e8-a5e7-cb2a3888189e"
+              sourceElement="#4d49fc37-5508-40b2-9812-fc54d8733dfe"/>
           <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
-              id="8feca397-6179-48b2-a9d6-a2ef99318668" involved="#3979582c-8408-4595-ae18-b7597d54bca6"
-              nextInvolvements="#a167913a-4221-49fd-8727-79f22339b2df"/>
+              id="8ab112ec-ca9a-4756-a1a5-b155af149e5e" involved="#3979582c-8408-4595-ae18-b7597d54bca6"
+              nextInvolvements="#3f68928f-7845-43cd-bb80-53a51bb86925"/>
           <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
-              id="a167913a-4221-49fd-8727-79f22339b2df" involved="#5b2ce29b-982b-4bf8-b7fe-dc3239735b81"
-              nextInvolvements="#7bbb8857-e212-4d7e-946f-96817b219912"/>
+              id="3f68928f-7845-43cd-bb80-53a51bb86925" involved="#544e6001-0589-41b4-895d-076913a41dc2"
+              nextInvolvements="#de593779-9704-4291-9d2a-894fe5a6971d"/>
           <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
-              id="7bbb8857-e212-4d7e-946f-96817b219912" involved="#18bed5c8-0c11-44ac-b494-495279138b0a"
-              nextInvolvements="#862f5b5c-f76c-4cea-b5b9-7f35b726ad2b"/>
+              id="de593779-9704-4291-9d2a-894fe5a6971d" involved="#18bed5c8-0c11-44ac-b494-495279138b0a"
+              nextInvolvements="#949911b1-aedc-4b89-ab72-56707959727e"/>
           <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
-              id="862f5b5c-f76c-4cea-b5b9-7f35b726ad2b" involved="#abae9ea7-f851-4ec8-818e-4fbbef44508a"
-              nextInvolvements="#dc051cb4-2f8e-4fcb-87b8-6d67e0407e77"/>
+              id="949911b1-aedc-4b89-ab72-56707959727e" involved="#abae9ea7-f851-4ec8-818e-4fbbef44508a"
+              nextInvolvements="#e5350e6a-0d05-4a2b-8d53-d9ecccaee095"/>
           <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
-              id="dc051cb4-2f8e-4fcb-87b8-6d67e0407e77" involved="#0cbbec74-2efc-4b12-9bfc-4e285c39ccfa"
-              nextInvolvements="#ebcb8444-79c2-424f-bb68-2305c2bb8a76"/>
+              id="e5350e6a-0d05-4a2b-8d53-d9ecccaee095" involved="#0cbbec74-2efc-4b12-9bfc-4e285c39ccfa"
+              nextInvolvements="#7efad494-e451-4e1c-9ee3-d81e572e7ce1"/>
           <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
-              id="ebcb8444-79c2-424f-bb68-2305c2bb8a76" involved="#a8f6fc72-7ed2-460e-b83d-ea48818d322f"
-              nextInvolvements="#90778cd9-cebd-462e-a0db-5eeb7d67295a"/>
+              id="7efad494-e451-4e1c-9ee3-d81e572e7ce1" involved="#a8f6fc72-7ed2-460e-b83d-ea48818d322f"
+              nextInvolvements="#53e05a43-a9c1-47bc-bc75-c836bb1c5506"/>
           <ownedPhysicalPathInvolvements xsi:type="org.polarsys.capella.core.data.cs:PhysicalPathInvolvement"
-              id="90778cd9-cebd-462e-a0db-5eeb7d67295a" involved="#e8fceb01-2ed4-44ab-a66b-b2df6c1a9e3b"/>
+              id="53e05a43-a9c1-47bc-bc75-c836bb1c5506" involved="#e8fceb01-2ed4-44ab-a66b-b2df6c1a9e3b"/>
         </ownedPhysicalPath>
         <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
-            id="abae9ea7-f851-4ec8-818e-4fbbef44508a" name="Radio link" linkEnds="#b9abb40d-6f60-499c-8709-a2b32ae43fe1 #6fe6530f-33ff-4842-ab2f-15df8524d3a8"/>
+            id="abae9ea7-f851-4ec8-818e-4fbbef44508a" name="900 Mhz Radio Siganl"
+            linkEnds="#b9abb40d-6f60-499c-8709-a2b32ae43fe1 #6fe6530f-33ff-4842-ab2f-15df8524d3a8"/>
+        <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
+            id="38744d25-7373-4645-b417-a96bec2b3621" name="USB Power" linkEnds="#fbe25f66-5e06-4a5a-b54d-7ad42d46ece2 #fea70612-8a3e-4ce7-8581-b7bbf41ffb34"/>
         <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
             id="f0f44a77-b537-46e0-bde5-adb3029a7ad3" name="Fob" nature="NODE">
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="ef71e122-8f03-4ef5-b7e2-4580f4d16c75"
@@ -1352,7 +1355,7 @@
                 location="#0b99b6e9-5fb5-4150-a522-edd414bca549"/>
           </ownedFeatures>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="86afdabb-bd1e-4834-b20e-441024cb7d8f"
-              name="E Button" abstractType="#4d69a7d8-5bdb-4598-870e-2ff95d6763b2">
+              name="M Button" abstractType="#4d69a7d8-5bdb-4598-870e-2ff95d6763b2">
             <ownedDeploymentLinks xsi:type="org.polarsys.capella.core.data.pa.deployment:PartDeploymentLink"
                 id="5722db8c-52bb-4ec3-9b21-3659d3a550f4" deployedElement="#970bca5e-0793-4a7c-9dbe-2dec21cdcde7"
                 location="#86afdabb-bd1e-4834-b20e-441024cb7d8f"/>
@@ -1376,7 +1379,8 @@
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="0cbbec74-2efc-4b12-9bfc-4e285c39ccfa"
               name="Transceiver board" abstractType="#9a168c89-9d9d-475d-bcd8-1cd876404ad6"/>
           <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
-              id="a8f6fc72-7ed2-460e-b83d-ea48818d322f" name="I/O pins" linkEnds="#0bbef798-11e4-4730-aec0-bc644208f0d2 #0e33ba14-29eb-4778-afb9-1c5d0db98ed9"/>
+              id="a8f6fc72-7ed2-460e-b83d-ea48818d322f" name="Tranceiver Signals"
+              linkEnds="#0bbef798-11e4-4730-aec0-bc644208f0d2 #0e33ba14-29eb-4778-afb9-1c5d0db98ed9"/>
           <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
               id="6b2ec3fb-c5a8-4e85-a452-a1079abcd88d" name="PL 3" linkEnds="#0a5a5ad6-c02c-44a8-b37f-73ec488b0452 #ce87d1c9-2075-4d61-b6a2-c7614f75d1e9"/>
           <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
@@ -1387,6 +1391,8 @@
               id="8f0216e8-9b4f-4f7a-9010-29f813d8d72c" name="PL 6" linkEnds="#6805d741-143c-4904-91e3-88140f419887 #63c1d543-c0bf-4c04-8a17-2825c695e213"/>
           <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
               id="d3a30c8c-5eef-4d0f-9341-4f244d23a067" name="PL 7" linkEnds="#4a43b23c-9a38-4daf-bc8a-fa8c6a356259 #0872543d-0779-4db8-8313-f4d2f2e5c40d"/>
+          <ownedPhysicalLinkCategories xsi:type="org.polarsys.capella.core.data.cs:PhysicalLinkCategory"
+              id="d8202c26-79b4-4844-af59-939d322ae912" name="Fob Buttons" links="#745017f4-5815-4691-9169-4c442d0245cc #a3e82000-51e3-4728-91c7-91294a2d9b6c #6b2ec3fb-c5a8-4e85-a452-a1079abcd88d #d3a30c8c-5eef-4d0f-9341-4f244d23a067"/>
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
               id="c7c237c1-a00f-4fa4-90fa-f9f6ee3a6cfb" name="Delayed" nature="NODE">
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
@@ -1400,7 +1406,7 @@
                 id="0a5a5ad6-c02c-44a8-b37f-73ec488b0452" name="PP 1"/>
           </ownedPhysicalComponents>
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
-              id="4d69a7d8-5bdb-4598-870e-2ff95d6763b2" name="E Button" nature="NODE">
+              id="4d69a7d8-5bdb-4598-870e-2ff95d6763b2" name="M Button" nature="NODE">
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
                 id="474f566c-ee07-4f47-976d-bed50b57466a" name="PP 1"/>
           </ownedPhysicalComponents>
@@ -1426,7 +1432,7 @@
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
                 id="0bbef798-11e4-4730-aec0-bc644208f0d2" name="PP 1">
               <ownedComponentPortAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentPortAllocation"
-                  id="f944393d-b84d-4ec8-bee0-2dabafa10bf5" targetElement="#5e9b0761-485e-4a03-b64e-6d38a3110a6f"
+                  id="cf710dd5-f97c-4254-b3b4-2924ec945c14" targetElement="#5e9b0761-485e-4a03-b64e-6d38a3110a6f"
                   sourceElement="#0bbef798-11e4-4730-aec0-bc644208f0d2"/>
             </ownedFeatures>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
@@ -1439,6 +1445,8 @@
                 id="d420a324-45ea-4b63-b3e8-c3559a186ee1" name="PP 6"/>
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
                 id="63c1d543-c0bf-4c04-8a17-2825c695e213" name="PP 7"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                id="fea70612-8a3e-4ce7-8581-b7bbf41ffb34" name="PP 8"/>
           </ownedPhysicalComponents>
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
               id="9a168c89-9d9d-475d-bcd8-1cd876404ad6" name="Transceiver board" nature="NODE">
@@ -1475,50 +1483,60 @@
         </ownedPhysicalComponents>
         <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
             id="2ef3a660-b53d-4c05-8cec-d6566bb38800" name="Base station" nature="NODE">
-          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="a306dbe4-e800-401e-9a8a-1d403135b634"
-              name="Circuit board" abstractType="#435cd3f2-a8e1-4d4b-91a2-3e4d949106d8"/>
           <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="7d7e483e-d3d3-41de-bb21-316725a73345"
               name="Message confirmation button (hub)" abstractType="#df86c69c-a89c-4091-ade8-6e4f06455656"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="18bed5c8-0c11-44ac-b494-495279138b0a"
+              name="Transceiver board" abstractType="#21405f8d-6aa2-4528-b569-fd94b28d2b09"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="3979582c-8408-4595-ae18-b7597d54bca6"
+              name="Spark Photon" abstractType="#805682ce-c95e-4740-81cd-e66ce01a2d75">
+            <ownedDeploymentLinks xsi:type="org.polarsys.capella.core.data.pa.deployment:PartDeploymentLink"
+                id="d32178c8-7790-41d0-bb18-81ea8666bfc6" deployedElement="#b0834ac4-9473-40c5-81e3-6bb20e4c0e1e"
+                location="#3979582c-8408-4595-ae18-b7597d54bca6"/>
+          </ownedFeatures>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="7fe45dd5-69e0-4142-ac15-43735e2b9be1"
+              name="Delayed LED" abstractType="#ca72b47a-debd-4705-aa0e-1c92f6824663"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="c279fd42-ad02-4dc6-9dfa-602839a63d3b"
+              name="Personal LED" abstractType="#93c2192c-c580-414a-97b2-3beb97fcfe4f"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="f079569c-fe84-4df6-b70a-a3269f74897e"
+              name="Machinery LED" abstractType="#2b9930f6-058e-4e42-af3b-1c37abc3df60"/>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="11e65384-acbc-45f0-be01-644a3fad9fd7"
+              name="Livestock LED" abstractType="#8fc355ca-92e9-48dc-9dd4-6d3877b6cbbe"/>
           <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
               id="93e07229-4674-462e-8879-7ac3a57a922a" name="" linkEnds="#20412952-4a4a-4b32-a1d2-8faaa5708e49 #21e16c2a-38a9-498c-a791-06cfd6de82cc"/>
-          <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
-              id="435cd3f2-a8e1-4d4b-91a2-3e4d949106d8" name="Circuit board" nature="NODE">
-            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="3979582c-8408-4595-ae18-b7597d54bca6"
-                name="Spark Photon" abstractType="#805682ce-c95e-4740-81cd-e66ce01a2d75">
-              <ownedDeploymentLinks xsi:type="org.polarsys.capella.core.data.pa.deployment:PartDeploymentLink"
-                  id="d32178c8-7790-41d0-bb18-81ea8666bfc6" deployedElement="#b0834ac4-9473-40c5-81e3-6bb20e4c0e1e"
-                  location="#3979582c-8408-4595-ae18-b7597d54bca6"/>
-            </ownedFeatures>
-            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:Part" id="18bed5c8-0c11-44ac-b494-495279138b0a"
-                name="Transceiver board" abstractType="#21405f8d-6aa2-4528-b569-fd94b28d2b09"/>
-            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
-                id="21e16c2a-38a9-498c-a791-06cfd6de82cc" name="PP 3"/>
-            <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
-                id="5b2ce29b-982b-4bf8-b7fe-dc3239735b81" name="I/O Pins" linkEnds="#6a22e52a-db1d-4d6a-bca2-3210b7a6fd21 #a93c51e8-b2c7-4b5d-9877-ba5c73cf1e78"/>
-            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
-                id="805682ce-c95e-4740-81cd-e66ce01a2d75" name="Spark Photon" nature="NODE">
-              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
-                  id="6a22e52a-db1d-4d6a-bca2-3210b7a6fd21" name="PP 1">
-                <ownedComponentPortAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentPortAllocation"
-                    id="b8ac3d15-d53c-4475-9119-7789128dcdc6" targetElement="#d1bd646c-5913-474b-9726-1e88c8dcfa74"
-                    sourceElement="#6a22e52a-db1d-4d6a-bca2-3210b7a6fd21"/>
-              </ownedFeatures>
-            </ownedPhysicalComponents>
-            <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
-                id="21405f8d-6aa2-4528-b569-fd94b28d2b09" name="Transceiver board"
-                nature="NODE">
-              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
-                  id="a93c51e8-b2c7-4b5d-9877-ba5c73cf1e78" name="PP 3"/>
-              <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
-                  id="b9abb40d-6f60-499c-8709-a2b32ae43fe1" name="PP 2"/>
-            </ownedPhysicalComponents>
-          </ownedPhysicalComponents>
+          <ownedPhysicalLinks xsi:type="org.polarsys.capella.core.data.cs:PhysicalLink"
+              id="544e6001-0589-41b4-895d-076913a41dc2" name="Tranceiver Signls" linkEnds="#6a22e52a-db1d-4d6a-bca2-3210b7a6fd21 #a93c51e8-b2c7-4b5d-9877-ba5c73cf1e78"/>
           <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
               id="df86c69c-a89c-4091-ade8-6e4f06455656" name="Message confirmation button (hub)"
               nature="NODE">
             <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
                 id="20412952-4a4a-4b32-a1d2-8faaa5708e49" name="PP 1"/>
           </ownedPhysicalComponents>
+          <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+              id="21405f8d-6aa2-4528-b569-fd94b28d2b09" name="Transceiver board" nature="NODE">
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                id="a93c51e8-b2c7-4b5d-9877-ba5c73cf1e78" name="PP 3"/>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                id="b9abb40d-6f60-499c-8709-a2b32ae43fe1" name="PP 2"/>
+          </ownedPhysicalComponents>
+          <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+              id="805682ce-c95e-4740-81cd-e66ce01a2d75" name="Spark Photon" nature="NODE">
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                id="6a22e52a-db1d-4d6a-bca2-3210b7a6fd21" name="PP 1">
+              <ownedComponentPortAllocations xsi:type="org.polarsys.capella.core.data.fa:ComponentPortAllocation"
+                  id="208cac6f-d3d0-46bc-a050-79b1211d8a6d" targetElement="#d1bd646c-5913-474b-9726-1e88c8dcfa74"
+                  sourceElement="#6a22e52a-db1d-4d6a-bca2-3210b7a6fd21"/>
+            </ownedFeatures>
+            <ownedFeatures xsi:type="org.polarsys.capella.core.data.cs:PhysicalPort"
+                id="21e16c2a-38a9-498c-a791-06cfd6de82cc" name="PP 3"/>
+          </ownedPhysicalComponents>
+          <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+              id="ca72b47a-debd-4705-aa0e-1c92f6824663" name="Delayed LED" nature="NODE"/>
+          <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+              id="93c2192c-c580-414a-97b2-3beb97fcfe4f" name="Personal LED" nature="NODE"/>
+          <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+              id="2b9930f6-058e-4e42-af3b-1c37abc3df60" name="Machinery LED" nature="NODE"/>
+          <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
+              id="8fc355ca-92e9-48dc-9dd4-6d3877b6cbbe" name="Livestock LED" nature="NODE"/>
         </ownedPhysicalComponents>
         <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
             id="9fe6399a-3ddd-493e-84d8-e062d056500d" name="Phone" nature="NODE"/>
@@ -1553,6 +1571,9 @@
                 id="d3af2d94-7d10-42ed-bc05-81695f102a9b" targetElement="#13fc03d7-2338-473a-bcf9-f288a29205ab"
                 sourceElement="#d1bd646c-5913-474b-9726-1e88c8dcfa74"/>
           </ownedFeatures>
+          <ownedFeatures xsi:type="org.polarsys.capella.core.data.fa:ComponentPort"
+              id="1a655525-3471-4b88-906d-783407025eea" name="CP 2" orientation="IN"
+              kind="FLOW"/>
         </ownedPhysicalComponents>
         <ownedPhysicalComponents xsi:type="org.polarsys.capella.core.data.pa:PhysicalComponent"
             id="dc301320-4889-4da7-97d7-cb97d61fd938" name="D Button" kind="HARDWARE"
